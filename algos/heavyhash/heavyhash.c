@@ -140,7 +140,7 @@ printf("into heavyhash_hash 0\n");
 
 printf("into heavyhash_hash 1\n");
 
-    sha3_256((void*)seed, 32, (void*)(input + 1), 32);
+    sha3_256((void*)seed, 32, (void*)(input + 4), 32);
 
 printf("into heavyhash_hash 2\n");
 
